@@ -1,0 +1,6 @@
+## MODULE.bazel
+module(
+    name = "inekf"
+)
+
+bazel_dep(name = "eigen", version = "3.4.0.bcr.3")

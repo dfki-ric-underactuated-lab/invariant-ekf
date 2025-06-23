@@ -44,3 +44,4 @@ build/
 
 # Bazel folders
 /bazel-*
+/MODULE.bazel.lock
