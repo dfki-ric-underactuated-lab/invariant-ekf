@@ -11,7 +11,7 @@
  *  @date   September 25, 2018
  **/
 
-#include "src/InEKF.h"
+#include "InEKF.h"
 #include <chrono>
 #include <Eigen/Sparse>
 
