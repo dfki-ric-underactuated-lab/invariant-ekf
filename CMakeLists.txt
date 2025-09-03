@@ -128,3 +128,18 @@ message("PROJECT_BINARY_DIR: " ${PROJECT_BINARY_DIR})
 # install(FILES
 #   "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/inekfConfig.cmake"
 #   DESTINATION share/inekf/cmake COMPONENT dev)
+
+
+ install(     
+ DIRECTORY include     
+ DESTINATION include     
+ )     
+     
+ install(     
+   TARGETS inekf     
+   EXPORT inekf     
+   LIBRARY DESTINATION lib     
+   ARCHIVE DESTINATION lib     
+   RUNTIME DESTINATION bin     
+   INCLUDES DESTINATION include     
+ )
