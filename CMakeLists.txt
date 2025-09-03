@@ -37,7 +37,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 ############################################
 #  The following folders will be included  #
 ############################################
-include_directories("${PROJECT_SOURCE_DIR}/src/")
+include_directories("${PROJECT_SOURCE_DIR}/")
 
 # Threading
 find_package (Threads)
